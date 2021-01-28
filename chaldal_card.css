@@ -1,0 +1,35 @@
+.main_card{
+   border-radius: 5px; 
+}
+.main_card:hover{
+    box-shadow:1px 1px 5px grey ;
+}
+
+.card_button{
+    width:175px;
+    height: 35px;
+    color: #fe8280;
+    background-color: white;
+    border:1px solid gray;
+}
+.card_button:hover{
+    box-shadow:1px 1px 5px grey ;
+}
+
+.image_wrapper{
+    position: relative;
+}
+.overlay{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    text-align: center;
+    transition: .5s ease;
+    background-color: rgba(0,0,0,0.5);
+    opacity: 0;
+}
+.overlay:hover{
+    opacity: 1;
+}
