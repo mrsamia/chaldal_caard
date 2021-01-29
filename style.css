@@ -1,5 +1,5 @@
 .main_card{
-   border-radius: 5px; 
+   border-radius: 10px; 
 }
 .main_card:hover{
     box-shadow:1px 1px 5px grey ;
